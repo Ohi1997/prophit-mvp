@@ -10,16 +10,16 @@ Prophit MVP is a web application that tracks significant movements in Polymarket
 This application monitors active Polymarket markets, stores their probability and volume data over time, and presents a clean, functional interface to surface the market movements that matter.
 
 **Main Feed showing significant market movements:**
-![Main Feed](https://github.com/your-username/prophit-mvp/assets/...)
+![Main Feed](https://github.com/user-attachments/assets/58c17c4e-7585-4415-9d58-f8ac7523f4e2)
 
 **Detailed Market View with historical probability chart:**
-![Chart View](https://github.com/your-username/prophit-mvp/assets/...)
+![Chart View](https://github.com/user-attachments/assets/7881ae6d-9c52-42bf-a80d-69eb231df895)
 
 **Visual indicator for new updates:**
-![New Update Indicator](https://github.com/your-username/prophit-mvp/assets/...)
+![New Update Indicator](https://github.com/user-attachments/assets/03a8cb59-1584-4a9b-ab7e-d96f2c5528c9)
 
 **Main Feed When there is no market movement:**
-![No Market Movement Detected View](https://github.com/your-username/prophit-mvp/assets/...)
+![No Market Movement Detected View](https://github.com/user-attachments/assets/84a3ec99-dc6e-4fd4-8e07-b706f232ddef)
 
 ---
 
