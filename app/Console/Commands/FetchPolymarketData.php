@@ -53,11 +53,11 @@ class FetchPolymarketData extends Command
             // Default to 0 if 'volume' key is not present
             $volume = $marketData['volume'] ?? 0;
 
-            // Production Filter: Skip markets with low volume to avoid noise.
+            // This filter is a key feature to reduce noise and focus on markets that matter.
+            // To populate the UI for testing, this can be temporarily changed to `if ($volume < 0)`.
             if ($volume < 1000) {
                 continue;
             }
-
             $this->line("Processing market: {$marketData['question']}");
 
             // Use 'condition_id' as the unique identifier for the market

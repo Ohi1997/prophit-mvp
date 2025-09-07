@@ -160,3 +160,27 @@ Go to [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 - **Vanilla JS instead of React/Vue:** Lightweight, no build step, faster to develop for MVP scope.  
 - **On-the-fly movement calculation:** Percentage changes are computed at request time, avoiding redundancy.  
 - **Service class for API interaction:** Follows **Single Responsibility Principle**, making the code modular and maintainable.
+
+## Important Note for Testing
+
+- **Volume Threshold for Data Collection:**  
+  The collector only saves markets with a trading volume of **$1,000+** to reduce noise and focus on significant markets.  
+
+- **Empty Database on First Run:**  
+  When you run `php artisan polymarket:fetch-data` for the first time, your tables may stay empty if no markets currently meet this threshold.  
+
+- **Populating with Sample Data (for UI/Charts):**  
+  To ensure your UI displays data during local testing:  
+  1. Open: `app/Console/Commands/FetchPolymarketData.php`  
+  2. Change the filter line from:  
+     ```php
+     if ($volume < 1000)
+     ```  
+     to:  
+     ```php
+     if ($volume < 0)
+     ```  
+  3. Run the fetch command 2–3 times (waiting a minute between runs) to build up historical entries.  
+
+- **Restore After Testing:**  
+  Don’t forget to revert the filter back to `$volume < 1000` before deploying to ensure production data integrity.
