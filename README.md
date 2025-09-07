@@ -1,5 +1,11 @@
 # Prophit MVP
 
+## 🎥 Video Walkthrough
+
+A complete 2-minute walkthrough of the application's features, architecture, and functionality. Click the thumbnail below to watch the video on YouTube.
+
+[![Watch the Prophit MVP Walkthrough Video](https://img.youtube.com/vi/QHUKwcm6-VA/0.jpg)](https://youtu.be/QHUKwcm6-VA)
+
 ![Laravel](https://img.shields.io/badge/Laravel-10.x-FF2D20?logo=laravel&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-%3E=8.2-777BB4?logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
