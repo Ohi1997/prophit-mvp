@@ -57,7 +57,7 @@ Follow these steps to get the Prophit MVP running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/prophit-mvp.git
+git clone https://github.com/Ohi1997/prophit-mvp.git
 cd prophit-mvp
 ```
 
