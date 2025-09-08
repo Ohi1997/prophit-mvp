@@ -2,7 +2,7 @@
 
 ## 🎥 Video Walkthrough
 
-A complete 2-minute walkthrough of the application's features, architecture, and functionality. Click the thumbnail below to watch the video on YouTube.
+A complete 3-minute walkthrough of the application's features, architecture, and functionality. Click the thumbnail below to watch the video on YouTube.
 
 [![Watch the Prophit MVP Walkthrough Video](https://img.youtube.com/vi/QHUKwcm6-VA/0.jpg)](https://youtu.be/QHUKwcm6-VA)
 
